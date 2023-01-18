@@ -2,6 +2,44 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgba(209, 190, 173, 255);
+}
+
 nav {
-  background-color: blue;
+  background-color: rgb(78, 99, 149);
+  display: flex;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  background-color: rgba(208, 157, 114, 255);
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  background-color: ;
+}
+
+footer {
+  background-color: rgb(72, 72, 189);
+}
+
+[type="text"] {
+  display: block;
+  outline: none;
+  background-color: transparent;
+}
+
+[type="button"] {
+  background-color: rgb(72, 72, 189);
+  color: white;
 }
